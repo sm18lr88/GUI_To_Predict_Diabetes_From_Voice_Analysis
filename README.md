@@ -1,4 +1,4 @@
-# GUI for Diabetes prediction based ona short recording of your voice.
+# GUI for Diabetes prediction based on a short recording of your voice.
 
 This application uses machine learning to analyze voice recordings and predict the likelihood of Type 2 Diabetes Mellitus. It is based on acoustic features extracted from the voice recording and implements a model that was studied and reported in academic research.
 
