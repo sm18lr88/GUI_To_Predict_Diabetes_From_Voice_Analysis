@@ -10,7 +10,7 @@ To run this project, you will need to install the required Python libraries. You
 pip install -r requirements.txt
 ```
 
-Usage
+## Usage:
 To start the Streamlit application, navigate to the project directory in your terminal and run:
 ```
 streamlit run app.py
