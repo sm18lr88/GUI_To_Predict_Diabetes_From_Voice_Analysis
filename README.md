@@ -9,8 +9,6 @@ To run this project, you will need to install the required Python libraries. You
 pip install -r requirements.txt
 ```
 
-You may have trouble installing one of the requirements (praat-parselmouth). In Windows, try using VS Build Tools to install it.
-
 Usage
 To start the Streamlit application, navigate to the project directory in your terminal and run:
 ```
