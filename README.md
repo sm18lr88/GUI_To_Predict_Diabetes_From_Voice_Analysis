@@ -1,10 +1,10 @@
 # GUI for Diabetes prediction based on a short recording of your voice.
 
-This application uses machine learning to analyze voice recordings and predict the likelihood of Type 2 Diabetes Mellitus. It is based on acoustic features extracted from the voice recording and implements a model that was studied and reported in academic research.
+**TLDR:** upload a short recording of your voice, and the app tells you whether you may have T2DM with a *theoretical* accuracy ranging from 53% to 89%.
+
+Longer explanation: this application uses machine learning to analyze voice recordings and predict the likelihood of Type 2 Diabetes Mellitus. It's based on acoustic features extracted from the voice recording and implements a model that was studied and reported in academic research.
 
 The study reported an optimal accuracy of 75%±22%, with a specificity of 77%±29% and a sensitivity of 73%±23% from cross-validation of the matched dataset. When predicting the original test set, the accuracy was higher at 89%, with a specificity of 91% and sensitivity of 71%.
-
-In simpler terms, the app's accuracy in predicting Type 2 Diabetes *theoretically* ranges from a minimum of about 53% to a maximum of 89%, depending on the dataset and conditions used.
 
 
 ## Installation
