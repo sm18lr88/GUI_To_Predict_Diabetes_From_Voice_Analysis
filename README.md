@@ -1,39 +1,40 @@
-# GUI for Diabetes prediction based on a short recording of your voice.
+# GUI for Predicting Type 2 Diabetes Mellitus from Voice Recordings
 
-**TLDR:** upload a short recording of your voice, and the app tells you whether you may have T2DM with a *theoretical* accuracy ranging from 53% to 89%.
+## Overview
+This application, developed as part of my academic and professional pursuits in medicine, uses machine learning to estimate Type 2 Diabetes Mellitus (T2DM) likelihood from voice recordings. It's based on a model from academic research, showing varied accuracy.
 
-Longer explanation: this application uses machine learning to analyze voice recordings and predict the likelihood of Type 2 Diabetes Mellitus. It's based on acoustic features extracted from the voice recording and implements a model that was studied and reported in academic research.
-
-The study reported an optimal accuracy of 75%±22%, with a specificity of 77%±29% and a sensitivity of 73%±23% from cross-validation of the matched dataset. When predicting the original test set, the accuracy was higher at 89%, with a specificity of 91% and sensitivity of 71%.
-
+## Technical Details
+- **Accuracy:** Optimal accuracy of 75%±22%, specificity of 77%±29%, and sensitivity of 73%±23% in the matched dataset.
+- **Test Set Performance:** 89% accuracy, 91% specificity, and 71% sensitivity.
 
 ## Installation
-Install the python requirements through:
+If you don't understand the following instructions, ask ChatGPT to explain them:
 
-```bash
-pip install -r requirements.txt
-```
-
-## Usage:
-To start the Streamlit application, navigate to the project directory in your terminal and run:
-```
-streamlit run app.py
-```
-
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`.
+3. Start the Streamlit app: `streamlit run app.py`.
 
 ## Attribution
-The code for feature extraction and machine learning analysis is based on the work done by Jaycee M. Kaufman, Anirudh Thommandram, and Yan Fossat in their study titled [Acoustic Analysis and Prediction of Type 2 Diabetes Mellitus Using Smartphone-Recorded Voice Segments](https://www.mcpdigitalhealth.org/article/S2949-7612(23)00073-1/fulltext).
+Algorithm and methodology adapted from [this study](https://www.mcpdigitalhealth.org/article/S2949-7612(23)00073-1/fulltext).
+
+## Contributions and Acknowledgements
+I've adapted the original code and added a Streamlit interface. This project reflects my passion for merging medicine and technology.
+
+## Limitations and Use
+This is a conceptual tool and not a substitute for professional medical advice. Accuracy depends on datasets and conditions similar to those in the original study.
+
+## To-Do
+- [x] Adapt core algorithm
+- [x] Streamlit frontend
+- [ ] Testing with more diverse voice samples
+- [ ] Online community engagement for informal testing
+- [ ] Local community study in collaboration with healthcare professionals
+- [ ] Algorithm optimization and improvement
+- [ ] If there's potential as a screening tool: development of open source smartphone application.
+- [ ] Planning a formal study for efficacy validation
 
 
-## Contribution:
-I'm not a data scientist or ML expert. I just slightly modified the author's code and created a streamlit frontend. This whole project may be totally inaccurate.
 
-
-## Warning:
-This app allows you to use any voice recording. Only the datasets used by the original paper can be said to be valid in reproducing the accuracy of the prediction. The app has more information on this.
-
-
-
-
+## Current App Preview:
 
 <img src="https://github.com/sm18lr88/Diabetes-Prediction-from-Voice-Analysis/assets/64564447/2008677a-b425-4a5b-8995-ca26e4a566c6e" width="1150">
