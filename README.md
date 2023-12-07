@@ -7,6 +7,9 @@ This application, developed as part of my academic and professional pursuits in 
 - **Accuracy:** Optimal accuracy of 75%±22%, specificity of 77%±29%, and sensitivity of 73%±23% in the matched dataset.
 - **Test Set Performance:** 89% accuracy, 91% specificity, and 71% sensitivity.
 
+### How is this possible?
+T2DM seems to create changes to voice amplitude, frequency, harmonic noise, jitter, phonation time, shimmer, and voice turbulence.
+
 ## Installation
 If you don't understand the following instructions, ask ChatGPT to explain them:
 
