@@ -1,7 +1,7 @@
 # GUI for Predicting Type 2 Diabetes Mellitus from Voice Recordings
 
 ## Overview
-This application, developed as part of my academic and professional pursuits in medicine, is a frontend for an AI model developed from academic research used to estimate Type 2 Diabetes Mellitus (T2DM) likelihood from voice recordings.
+This application, created as part of my academic and professional pursuits in medicine, is a frontend for an AI model developed from academic research for estimating Type 2 Diabetes Mellitus (T2DM) likelihood from voice recordings.
 
 ## Technical Details
 - **Accuracy:** Optimal accuracy of 75%±22%, specificity of 77%±29%, and sensitivity of 73%±23% in the matched dataset.
