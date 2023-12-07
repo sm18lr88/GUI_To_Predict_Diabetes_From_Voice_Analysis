@@ -11,7 +11,7 @@ This application, created as part of my academic and professional pursuits in me
 T2DM seems to create changes to voice amplitude, frequency, harmonic noise, jitter, phonation time, shimmer, and voice turbulence.
 
 ## Installation
-If you don't understand the following instructions, ask ChatGPT to explain them:
+If you don't understand the following instructions, give ChatGPT [this link](https://raw.githubusercontent.com/sm18lr88/GUI_To_Predict_Diabetes_From_Voice_Analysis/main/README.md) and ask it to explain how to run this project:
 
 1. Clone the repository.
 2. Install dependencies: `pip install -r requirements.txt`.
